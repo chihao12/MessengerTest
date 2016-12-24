@@ -240,7 +240,6 @@ function findOrCreateSession (fbid){
 
 // recommended to inject access tokens as environmental variables, e.g.
 const token = process.env.PAGE_ACCESS_TOKEN
-//const token = "EAAE36dHBxhUBAJnpXhgEZB1I449EQDwowdiMMZCWWcWkS92LhocT9Hbzm2rQqnZBSpIQfZAvPiNtghiQA9VwjC92ZBnrht2Ceo2eJu7DFcBBwRqwn3fTOsPg9BS3q08XlbSKQv64srOVb0qzWLsAKhkwxyDQjZAycKWwAfc9VZB1wZDZD"
 
 function sendTextMessage(sender, text) {
 	let messageData = { "text":text 
