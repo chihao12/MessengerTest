@@ -1,0 +1,20 @@
+{
+  "name": "facebookmessenger",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "messenger.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "chokidar": "^1.6.1",
+    "express": "^4.13.4",
+    "nodemailer": "^2.7.0",
+    "redis": "^2.6.3",
+    "request": "^2.71.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
