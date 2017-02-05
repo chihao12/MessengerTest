@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const request = require('request')
 const app = express()
 const redis = require("redis")
-const client = redis.createClient(6379,"127.0.0.1")
+const client = redis.createClient(process.env.REDIS_URL)
 let sessions = {};
 
 var nodemailer = require('nodemailer');
